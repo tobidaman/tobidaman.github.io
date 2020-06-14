@@ -1,1 +1,0 @@
-# tobidaman.github.io
