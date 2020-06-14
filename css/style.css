@@ -1,0 +1,166 @@
+body {
+    background: #E9E3D5;
+}
+
+.container {
+    width: 1500px;
+    margin: auto; /*расположение по центру*/
+    display: flex;/*порядок элементов не будет меняться*/
+    max-width: 100%;
+}
+
+.foot
+{
+    width: 1500px;
+    background: #427F2F;
+    margin: auto;
+    display: flex;
+    max-width: 100%; 
+}
+
+.contact{
+    margin-bottom: auto;
+    margin-top: auto;
+    width:33.33%;;     
+}
+
+.center{
+    margin: auto;
+}
+
+.information{
+    line-height: 232%;
+    margin: auto;
+    width:33.33%;
+    text-decoration: none;
+}
+.references{
+    margin: auto;
+    width:33.33%;
+}
+
+.right {
+    background: #272727;
+    max-width: 100%;  
+    width: 1380px;
+}
+
+.left {
+    background: #E9E3D5;
+   max-width: 13%; 
+}
+
+.main {
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    max-width: 100%;
+    background: #E9E3D5;  
+}
+
+.container3 {
+    width: 1500px;
+    margin: auto;
+    display: flex;
+    max-width: 70%;
+}
+.container21 {
+  
+    margin: auto;
+    display: flex;
+    max-width: 100%;
+}
+
+
+.footer {
+	position: absolute;/*Указывает, что элемент абсолютно позиционирован, при этом другие элементы отображаются на веб-странице словно абсолютно позиционированного элемента и нет. */
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+}
+.sidebar {
+   background: #E9E3D5;
+    width: 30%;
+}
+
+.content { 
+    background: #E9E3D5;
+    width: 70%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+ 
+/* Dropdown Button */
+.dropbtn {
+    background-color:#E9E3D5;
+    color: black;
+    padding: 15px;
+    border: none;/*стиль границы вокруг элемента*/
+}
+
+
+
+.dropdown {
+    position: relative;/*позиция относительно исходного места*/
+    display: inline-block;/*блочный элемент, обтекаемый другими*/
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #E9E3D5;;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 10px;/*поля вокруг содержимого элемента*/
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #FCBE07;}
+
+/* Показать выпадающее меню при наведении курсора мыши */
+.dropdown:hover .dropdown-content {display: block;}/*происходит перенос строк в начале и в конце содержимого.*/
+
+p {
+
+    text-indent: 1.5em;
+}
+
+.text{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    text-indent: 1.5em;
+}
+
+img{
+    border: auto;
+}
+
+.thumb img  {
+    border: 0px solid #ffffff; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #CDEEF3; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+   }
+
+.rightsidebar
+{
+ background: #DAF1DE;
+    width: 30%;
+}
+
+.images {
+    margin: auto;
+}
